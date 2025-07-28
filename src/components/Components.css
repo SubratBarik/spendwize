@@ -1,0 +1,7 @@
+.sidelist { margin: 5% 0 0; padding: 2% 0 0 2%; list-style: none; float: left; }
+.sidelist li { margin: 0 0 15px; padding: 0; }
+.sidelist li a { text-decoration: none; }
+.active-link { font-weight: bold; }
+
+.copyright { background: rgb(52, 52, 52); height: 50px; }
+.copyright p { color: #fff; line-height: 50px; font-size: 15px; }
