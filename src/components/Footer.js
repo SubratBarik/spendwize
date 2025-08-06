@@ -4,10 +4,8 @@ function Footer() {
 
   return (
     <>
-      <div className='col-md-12'>
-        <div className='copyright'>
-          <p className='text-center'>&copy;{currentYear} SpendWize. All Rights Reserved.</p>
-        </div>
+      <div className='copyright'>
+        <p>&copy;{currentYear} SpendWize. All Rights Reserved.</p>
       </div>
     </>
   )

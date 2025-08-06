@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('../images/pattern-1.jpg');
+  background-repeat: repeat;
+  background-size: auto;
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #681ed7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f16e2;
+  text-decoration: none;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.notfound,
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-div {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #333;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+  margin: 0 0 5%;
+}
+
+form::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.textfield {
+  margin: 0 0 20px;
+  padding: 0;
+  width: 100%;
+  float: left;
+}
+
+.textfield label {
+  float: left;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+}
+
+.textfield input {
+  float: left;
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+  height: 40px;
+  outline: none;
+}
+
+.linkfield p {
+  text-align: right;
+  font-size: 15px;
+}
+
+.login button {
+  padding: 0.75rem 2.5rem;
+  float: right;
+}
+
+.infofield {
+  width: 100%;
+  float: left;
+  margin: 1rem 0 0;
+}
+
+.copyright {
+  position: relative;
+}
+
+.copyright p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 10%;
+}
+

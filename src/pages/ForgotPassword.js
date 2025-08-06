@@ -1,9 +1,9 @@
 import '../assets/css/style.css';
 import Logo from '../assets/images/logo.png';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 
-function Login() {
+function ForgotPassword() {
     return (
         <>
             <div id="wrapper" className='login'>
@@ -15,16 +15,21 @@ function Login() {
                             <input type="email" placeholder="Enter email" required />
                         </div>
                         <div className='textfield'>
+                            <label htmlFor="otpforpwd">OTP:</label>
+                            <input type="text" id="otpforpwd" placeholder="Validate Email via OTP" required />
+                        </div>
+                        <div className='textfield'>
                             <label htmlFor="password">Password:</label>
                             <input type="password" id="password" placeholder="Enter password" required />
                         </div>
-                        <div className='linkfield'>
-                            <p><Link to='/forgot-password'>Forgot Password</Link></p>
+                        <div className='textfield'>
+                            <label htmlFor="confirmpassword">Confirm Password:</label>
+                            <input type="password" id="confirmpassword" placeholder="Enter confirm password" required />
                         </div>
-                        <button type="submit">LOGIN</button>
+                        <button type="submit">UPDATE</button>
                     </form>
                     <div className='infofield'>
-                        <p>Don't have an account? <Link to='/signup'>Create an account</Link></p>
+                        <p>Already have an account? <Link to='/'>Login</Link></p>
                     </div>
                     <div className='msg'></div>
                 </div>
@@ -34,4 +39,4 @@ function Login() {
     )
 }
 
-export default Login;
+export default ForgotPassword;

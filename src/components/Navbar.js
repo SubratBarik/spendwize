@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'; //for link
+//import { Link } from 'react-router-dom'; //for link
 
 function Navbar() {
   return (

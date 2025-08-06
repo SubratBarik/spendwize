@@ -1,16 +1,16 @@
 import { Link } from 'react-router-dom'; //for link
-import './pages.css';
+import '../assets/css/style.css';
+import Logo from '../assets/images/logo.png';
 
 function NotFound() {
 	return (
 		<>
-			<div className="container">
-				<div className="row">
-					<div className="col-md-6 mx-auto text-center my-5">
-						<h3 className='notfounderror'>404 - Not Found</h3>
-						<h5>Sorry, the page you’re looking for doesn’t exist or has been moved.</h5>
-						<p className='my-4'><Link to="/" className='notfoundanchor'>[Return to Home]</Link></p>
-					</div>
+			<div id="wrapper" className='notfound'>
+				<div className="centered-div">
+					<img src={Logo} alt='Spend Wize' />
+					<h3 className='notfounderror'>404 - Not Found</h3>
+					<h5>Sorry, the page you’re looking for doesn’t exist or has been moved</h5>
+					<p className='my-4'><Link to="/" className='notfoundanchor'>[Return to Home]</Link></p>
 				</div>
 			</div>
 		</>

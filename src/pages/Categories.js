@@ -7,10 +7,14 @@ function Categories(props) {
     <>
       <div className='container'>
         <div className='row'>
-          <Navbar />{/* Nabar */}
-          <Sidebar />{/* Sidebar */}
-          <div className='col-md-10'><div className='cyan'><h5 className='text-center'>{props.title}</h5></div></div>{/* Body */}
-          <Footer />{/* Footer */}
+          <Navbar />
+          <Sidebar />
+          <div className='col-md-10'>
+            <div className='cyan'>
+              <h5 className='text-center'>{props.title}</h5>
+            </div>
+          </div>
+          <Footer />
         </div>
       </div>
     </>

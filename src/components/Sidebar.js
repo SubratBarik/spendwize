@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'; //for active link
-import './components.css';
+import '../assets/css/style.css';
 
 function Sidebar() {
   return (
