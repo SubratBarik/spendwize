@@ -1,6 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom'; //for link
-import './Pages.css';
+import './pages.css';
 
 function NotFound() {
 	return (

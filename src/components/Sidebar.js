@@ -1,6 +1,5 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom'; //for active link
-import './Components.css';
+import './components.css';
 
 function Sidebar() {
   return (
