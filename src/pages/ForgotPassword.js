@@ -1,5 +1,5 @@
 import '../assets/css/style.css';
-import Logo from '../assets/images/logo.png';
+import Logo from '../assets/images/logo-new.png';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 
@@ -33,8 +33,10 @@ function ForgotPassword() {
                     </div>
                     <div className='msg'></div>
                 </div>
+
+                <Footer />
             </div>
-            <Footer />
+            
         </>
     )
 }

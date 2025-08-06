@@ -1,27 +1,33 @@
-//import { Link } from 'react-router-dom'; //for link
+import { Link } from 'react-router-dom'; //for link
+import Logo from '../assets/images/logo-new.png';
+import '../assets/css/style.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
+
+  const toggleMenu = () => {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+
   return (
     <>
-      <div className='col-md-12'>
-        <div className='orange'>
-          <div className='col-md-2 text-center'>
-            <h3 style={{ lineHeight: '60px', fontSize: '25px', }}>SpendWize</h3>
+      <div className="header">
+          <div className="logo-holder">
+            <img src={Logo} alt="" className='logo' />
           </div>
-          <div className='col-md-8'></div>
-          <div className='col-md-2'>
-            {/* <div className="dropdown">
-              <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                User
-              </button>
-              <ul className="dropdown-menu">
-                <li><Link className="dropdown-item" to="/profile">Profile</Link></li>
-                <li><Link className="dropdown-item" to="#">Logout</Link></li>
-              </ul>
-            </div> */}
+          <div className="toggle-holder">
+            <div className="dropdown">
+              <button onClick={toggleMenu} className="dropbtn"><FontAwesomeIcon icon={faUser} size="1x" /> [USER_NAME]</button>
+              <div id="myDropdown" className="dropdown-content">
+                <Link to="/profile">Profile</Link>
+                <a name="logout" style={{cursor: 'pointer'}}>Logout</a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
     </>
   )
 }
