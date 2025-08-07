@@ -3,7 +3,7 @@ import Logo from '../assets/images/logo-new.png';
 import '../assets/css/style.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faSignOut } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
 

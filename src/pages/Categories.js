@@ -5,17 +5,30 @@ import Footer from '../components/Footer';
 function Categories(props) {
   return (
     <>
-      <div className='container'>
-        <div className='row'>
-          <Navbar />
-          <Sidebar />
-          <div className='col-md-10'>
-            <div className='cyan'>
-              <h5 className='text-center'>{props.title}</h5>
-            </div>
+      <div id="wrapper" className=''>
+
+        <Navbar />
+
+        <div className="main-block">
+          <div className="sideblock">
+            <Sidebar />
           </div>
-          <Footer />
+          <div className="container">
+            <h3>{props.title}</h3>
+            <p>sfsfsdf sdfsdfsd f</p>
+            <p>sfsfsdf sdfsdfsd f</p>
+            <p>sfsfsdf sdfsdfsd f</p>
+            <p>sfsfsdf sdfsdfsd f</p>
+            <p>sfsfsdf sdfsdfsd f</p>
+            <p>sfsfsdf sdfsdfsd f</p>
+            <p>sfsfsdf sdfsdfsd f</p>
+            <p>sfsfsdf sdfsdfsd f</p>
+            <p>sfsfsdf sdfsdfsd f</p>
+          </div>
         </div>
+
+        <Footer />
+
       </div>
     </>
   )
