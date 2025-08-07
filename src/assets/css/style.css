@@ -172,15 +172,7 @@ form::after {
   margin: 1rem 0 0;
 }
 
-/* .copyright {
-  position: relative;
-} */
-
 .copyright {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  bottom: 0;
   color: #3b7778;
 }
 
