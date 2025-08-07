@@ -92,7 +92,9 @@ button:hover {
 #wrapper {
   margin: 0;
   padding: 1%;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .notfound,
@@ -119,6 +121,7 @@ button:hover {
   width: 100%;
   text-align: center;
   font-family: Arial, sans-serif;
+  margin-top: 7%;
 }
 
 .logo {
@@ -174,6 +177,7 @@ form::after {
 
 .copyright {
   color: #3b7778;
+  margin-top: auto;
 }
 
 .header {
