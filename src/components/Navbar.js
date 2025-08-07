@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'; //for link
+import { Link, NavLink } from 'react-router-dom'; //for link
 import Logo from '../assets/images/logo-new.png';
 import '../assets/css/style.css';
 
@@ -16,7 +16,7 @@ function Navbar() {
     <>
       <div className="header">
           <div className="logo-holder">
-            <img src={Logo} alt="" className='logo' />
+            <NavLink to="/dashboard"><img src={Logo} alt="" className='logo' /></NavLink>
           </div>
           <div className="toggle-holder">
             <div className="dropdown">

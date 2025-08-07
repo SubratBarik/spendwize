@@ -82,7 +82,7 @@ a:hover {
 
 button {
   padding: 8px 16px;
-  background-color: #007bff;
+  background-color: rgb(18, 131, 165);
   color: white;
   border: none;
   border-radius: 4px;
@@ -90,7 +90,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: rgb(28, 161, 201);
 }
 
 #wrapper {
@@ -268,7 +268,7 @@ form::after {
   position: relative;
 }
 
-.main-block .container {
+.main-block .content {
   margin: 0;
   padding: 0 2%;
   width: 84%;
@@ -291,11 +291,19 @@ ul.sidelist li a {
   color: #333;
   text-decoration: none;
   font-size: 16px;
+  font-weight: bold;
 }
 
 ul.sidelist li a:hover {
   color: #1880e1;
   text-decoration: none;
+  font-weight: bold;
+}
+
+ul.sidelist li a.active-link {
+  color: #1868e1;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .version-link {
@@ -312,3 +320,94 @@ ul.sidelist li a:hover {
   position: absolute;
   bottom: 5%;
 }
+.profile-block {
+  max-width: 35%;
+  margin: 2% auto 0;
+}
+.profile-block button {
+  float: right;
+}
+.btn-sm {
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 32px;
+  background: rgb(18, 131, 165);
+  color: #fff;
+  font-size: 10px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.btn-sm:hover {
+  background: rgb(71, 170, 212);
+  color: #fff;
+  text-decoration: none;
+}
+.expense-block {
+  margin: 2% 0 0;
+  padding: 0 1%;
+  width: 100%;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.category-block {
+  margin: 2% 0 0;
+  padding: 0;
+  width: 100%;
+}
+.left-cblock {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  float: left;
+  background: orange;
+  height: 300px;
+}
+
+.right-cblock {
+  margin: 0;
+  padding: 0;
+  width: 58%;
+  float: right;
+  background: orange;
+  height: 300px;
+}
+
+/* styles.css */
+.table {
+  width: 100%;
+  /* border-collapse: collapse; */
+  border-collapse: separate;
+}
+.table th {
+  position: sticky;
+  top: 0;
+  background: rgb(18, 131, 165);
+}
+
+.table th, .table td {
+  border: 1px solid #083032;
+  padding: 8px;
+  text-align: left;
+}
+
+.table thead {
+  background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+  background-color: #ebf0bf52;
+}
+
+.table tr:hover {
+  background-color: #adeefa30;
+}
+
+.btn-expense {
+  float: right;
+  margin: 0 0 10px 0;
+}
+

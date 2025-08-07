@@ -10,9 +10,10 @@ function ForgotPassword() {
                 <div className="centered-div">
                     <img src={Logo} alt='Spend Wize' className='logo' />                    
                     <form>
-                        <div className='textfield'>
+                        <div className='textfield' style={{position: 'relative'}}>
                             <label htmlFor="email" className="form-label">Email:</label>
                             <input type="email" placeholder="Enter email" required />
+                            <a name="verify" className='btn-sm'>Verify</a>
                         </div>
                         <div className='textfield'>
                             <label htmlFor="otpforpwd">OTP:</label>

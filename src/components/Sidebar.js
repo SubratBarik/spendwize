@@ -8,7 +8,7 @@ function Sidebar() {
     <>
       <ul className='sidelist'>
         <li><FontAwesomeIcon icon={faDashboard} size="1x" /> <NavLink to="/dashboard" className={({ isActive }) => isActive ? 'active-link' : undefined}>Dashboard</NavLink></li>
-        <li><FontAwesomeIcon icon={faList} size="1x" /> <NavLink to="/categories" className={({ isActive }) => isActive ? 'active-link' : undefined}>Categories</NavLink></li>
+        {/* <li><FontAwesomeIcon icon={faList} size="1x" /> <NavLink to="/categories" className={({ isActive }) => isActive ? 'active-link' : undefined}>Categories</NavLink></li> */}
         <li><FontAwesomeIcon icon={faMoneyBills} size="1x" /> <NavLink to="/expenses" className={({ isActive }) => isActive ? 'active-link' : undefined}>Expenses</NavLink></li>
         <li><FontAwesomeIcon icon={faUser} size="1x" /> <NavLink to="/profile" className={({ isActive }) => isActive ? 'active-link' : undefined}>Profile</NavLink></li>
         <li className='logout-link'><FontAwesomeIcon icon={faSignOut} size="1x" /> <a name="logout" style={{cursor: 'pointer'}} className={({ isActive }) => isActive ? 'active-link' : undefined}>Logout</a></li>

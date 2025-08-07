@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Footer from '../components/Footer';
+import '../assets/css/style.css';
 
 function Categories(props) {
   return (
@@ -13,17 +14,12 @@ function Categories(props) {
           <div className="sideblock">
             <Sidebar />
           </div>
-          <div className="container">
+          <div className="content">
             <h3>{props.title}</h3>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
+            <div className='category-block'>
+               <div className='left-cblock'></div>
+              <div className='right-cblock'></div>
+            </div>
           </div>
         </div>
 

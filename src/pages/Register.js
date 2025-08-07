@@ -14,9 +14,10 @@ function Register() {
                             <label htmlFor="fullname" className="form-label">Name:</label>
                             <input type="text" placeholder="Enter Name" required />
                         </div>
-                        <div className='textfield'>
+                        <div className='textfield' style={{position: 'relative'}}>
                             <label htmlFor="email" className="form-label">Email:</label>
                             <input type="email" placeholder="Enter email" required />
+                            <a name="verify" className='btn-sm'>Verify</a>
                         </div>
                         <div className='textfield'>
                             <label htmlFor="otpforac" className="form-label">OTP:</label>

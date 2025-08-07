@@ -14,7 +14,7 @@ function Version(props) {
                     <div className="sideblock">
                         <Sidebar />
                     </div>
-                    <div className="container">
+                    <div className="content">
                         <h3>{props.title} <small>( as on 07.08.2025 )</small></h3>
                         <p>SDFsfsd  sdf fsd</p>
                         <p>SDFsfsd  sdf fsd</p>

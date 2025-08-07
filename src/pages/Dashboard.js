@@ -13,17 +13,9 @@ function Dashboard(props) {
           <div className="sideblock">
             <Sidebar />
           </div>
-          <div className="container">
+          <div className="content">
             <h3>{props.title}</h3>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
-            <p>sfsfsdf sdfsdfsd f</p>
+
           </div>
         </div>
 
